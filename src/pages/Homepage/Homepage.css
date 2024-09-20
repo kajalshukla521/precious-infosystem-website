@@ -1,0 +1,392 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+
+/* Add margin-top to make space for the fixed navbar */
+.homepage-container {
+    margin-top: 80px; 
+    background: linear-gradient(0deg, rgba(248, 253, 255, 0) 0%, #ff2a000f 100%);
+  }
+  
+  .img-fluid{
+    background-color: #FFFFFF;
+  }
+  
+  .homepage-left h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px; /* Reduced margin for less space below the heading */
+  }
+  
+  .homepage-left p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .homepage-btn {
+    background-color: #ff2c00; /* Button color */
+    color: white;
+    border: none;
+  }
+  
+  /* Style the right side images */
+  .homepage-right {
+    position: relative;
+    padding: 0; /* Remove padding to eliminate extra space */
+  }
+  
+  .rotated-img {
+    position: absolute;
+    top: 0%;
+    left: 39%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    animation: rotate 5s linear infinite; /* Continuous rotation animation */
+  }
+  
+  /* Ensure navbar stays above the content with z-index */
+  .navbar {
+    z-index: 1030; /* Higher z-index to keep the navbar above everything */
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Define the keyframes for the rotation */
+  @keyframes rotate {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+
+
+
+  .btn-contact{
+    width: 129px;
+    background-color: #ff2c00;
+    color: white;
+    border: 1px;
+    border-radius: 5px;
+  }
+  
+  /* Center the new heading and paragraph */
+  .homepage-center-content {
+    margin-top: 40px; /* Add top space for the centered section */
+  }
+  
+  .homepage-center-content h2,
+  .homepage-center-content p {
+    text-align: center;
+    margin: 20px 0; /* Add space around the centered content */
+  }
+  .heading1{
+    margin-top: 100px;
+  }
+  
+
+  /* counter css */
+  /* Container background color */
+
+/* Container background color */
+
+
+
+.counters-container {
+    background-color: black;
+    padding: 50px 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  
+  .counter {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .counter-image {
+    margin-bottom: 15px;
+  }
+  
+  .counter-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .counter-content p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  /* Rotating image */
+  .rotated-img3 {
+    display: block;
+    margin: 0 auto;
+    transform: rotate(360deg);
+    animation: rotate 10s linear infinite;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Define the keyframes for the rotation */
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+
+/* 
+  technology css start heare */
+
+
+  .technology-section {
+    background-image: url("https://www.preciousinfosystem.com/images/assets/circle.jpg");
+    background-position: center;
+    background-size: cover;
+   
+  }
+  
+  .technology {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 50px;
+    color: #ff2c00;
+    margin-top: 51px;
+  }
+  
+  /* Grid layout for technology cards */
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px; /* Space between items */
+    justify-content: center;
+    margin: 50px 0; /* Margin from top and bottom */
+  }
+  
+  .rotating-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px; /* Adjust size as needed */
+    text-align: center;
+  }
+  
+  /* Default image styling */
+  .rotating-image {
+    width: 150px;
+    object-fit: cover;
+    margin-inline: auto;
+    margin-bottom: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    box-shadow: 4px 4px 10px 4px lightgrey;
+    border-radius: 50%;
+  }
+  
+  /* Image styling */
+  .rotating-image img {
+    width: 100%;
+    height: auto;
+    transition: transform 1s ease-in-out; /* Slower and smoother transition */
+  
+  }
+  
+  /* Rotate the image slowly when hovering */
+  .rotating-image:hover img {
+    transform: rotate(360deg);
+  }
+  
+  /* Heading styling */
+  .heading5 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+
+
+  /* Industry web server css */
+
+
+.subscribe-area {
+  position: relative;
+  z-index: 2;
+  background: linear-gradient(180deg, rgb(233 234 238) 0%, rgba(241, 252, 255, 0.51782) 48.22%, #ff2c000d 100%);
+}
+
+
+
+
+  .paragraph-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+  
+  .small-check-image {
+    width: 20px; /* Adjust the size of the small check image */
+    height: 20px;
+  }
+  
+  .right-side-image {
+    max-width: 100%; /* Make the image responsive */
+    height: auto;
+ 
+    border-radius: 10px;
+  }
+  
+  .image-text-section span {
+    font-size: 1.1rem;
+    color: #333; /* Customize text color */
+  }
+  
+
+
+/* card and swiper css start */
+
+.sc-title{
+
+    display: inline-block;
+    line-height: 28px;
+    border-radius: 15px;
+    background: rgba(145, 59, 255, 0.07);
+    padding: 0 18px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--prime-three);
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ff2c00;
+    margin-top: 70px;
+    
+}
+.desigin{
+  color: var(--prime-three);
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    color: #ff2c00;
+    font-size: larger;
+}
+
+
+/* Round image */
+.testimonial-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover; /* Ensures the image fits the circle */
+  border-radius: 50%; /* Makes the image a perfect circle */
+}
+
+/* Testimonial card styles */
+.testimonial-card {
+  margin: 0 auto; 
+  /* Center the card horizontally */
+  padding: 10px;
+  background-color: #FFFFFF;
+ 
+}
+
+.testimonial-card:hover {
+  transform: scale(1.05);
+}
+
+/* Center Swiper pagination outside the cards */
+.swiper-pagination {
+  position: relative;
+  bottom: -30px; /* Place pagination outside and below the cards */
+  display: flex;
+  justify-content: center;
+}
+
+/* Pagination bullet style */
+.swiper-pagination-bullet {
+  background: #000;
+  opacity: 0.7;
+}
+
+/* Adjust Swiper slides */
+.mySwiper .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Disable vertical scrolling, allow only horizontal scrolling */
+.swiper-wrapper {
+  display: flex;
+  flex-direction: row; /* Only allow horizontal swipe */
+  touch-action: pan-x; /* Prevent vertical scrolling */
+  margin-top: 70px;
+}
+
+.swiper-container {
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* contact css start heare */
+
+  .blur-text {
+    color: rgba(0, 0, 0, 0.6); /* Make text appear blurred */
+    font-size: 0.9rem;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  form .form-label {
+    font-weight: bold;
+  
+  }
+  
+

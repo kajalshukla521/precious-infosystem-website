@@ -1,0 +1,176 @@
+
+
+ 
+
+/* Top Section */
+.top-section {
+  padding: 20px 0;
+}
+
+.background {
+  background: linear-gradient(0deg, #ff2a000f 100%, rgba(211, 211, 211, 0) 0%);
+  position: relative;
+  z-index: 1;
+  padding-bottom: 31px;
+}
+
+.sc-title {
+  display: inline-block;
+  line-height: 28px;
+  border-radius: 15px;
+  background: rgba(145, 59, 255, 0.07);
+  padding: 0 18px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #ff2c00;
+  margin-top: 70px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+.center-image{
+ 
+  margin-right: 100px;
+}
+
+.main-heading {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/* Image and Text Section */
+.left-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.text-paragraph {
+  margin-top: 10px;
+}
+
+/* Button Styles */
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+/* Cards Section */
+.card {
+  background: #FFFFFF;
+  box-shadow: 0px 25px 60px rgba(0, 65, 113, 0.05);
+  border-radius: 20px;
+  padding: 30px 20px 0px;
+  height: 100%;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card-text {
+  margin-top: 10px;
+}
+
+.card-img-top {
+  width: 30%;
+}
+
+/* Gmail Card Styles */
+.gmail-card {
+  background: #FFFFFF;
+  box-shadow: 0px 25px 60px rgba(0, 65, 113, 0.05);
+  border-radius: 20px;
+  padding: 30px 20px 0px;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gmail-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 30px 70px rgba(0, 65, 113, 0.15);
+}
+
+
+
+
+
+/* Map and Send as Message Container */
+
+
+.container2 {
+  background-image: url('https://www.preciousinfosystem.com/images/assets/contact.png'); /* Background image */
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding: 50px 0;
+  color: white;
+
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px; 
+}
+
+.col-md-6 {
+  padding: 0 15px; 
+}
+
+.map-frame {
+  width: 80%;
+  height: 500px; 
+  border-radius: 50px;
+  border-radius: 8px;
+  float: right;
+}
+
+.form-container {
+  background-color: rgba(0, 0, 0, 0.473); 
+  border-radius: 5px;
+  padding: 10px;
+  border-radius: 50px;
+  width: 80%;
+  height: 300%;
+}
+
+.form-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: white; 
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%; 
+}
+
+.required {
+  color: red;
+  font-weight: bold;
+}
+
+.submit-btn {
+  font-family: 'gorditamedium';
+  font-size: 17px;
+  color: #fff;
+  line-height: 48px;
+  border-radius: 5px;
+  padding: 0 15px;
+  background-color: #ff2c00; /* Background color of the button */
+  border: none; /* Remove default border */
+  cursor: pointer; 
+  transition: all 0.3s ease-in-out;
+    margin-left: 50%;
+}
